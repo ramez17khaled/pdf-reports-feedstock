@@ -1,5 +1,5 @@
 {% set name = "pdf-reports" %}
-{% set version = "0.3.8" %}
+{% set version = "0.3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Edinburgh-Genome-Foundry/pdf_reports/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 988ca8997557f4ef3b3c3c6d80472997c9818e1dcd9eb2f26351c4640e85aa63
+  sha256: 37fa3f70418b9953f49ecd7df9dec0b0ce65a31a5da275c67de5f260689e7b66
 
 build:
   number: 0
@@ -52,11 +52,10 @@ about:
   home: https://github.com/Edinburgh-Genome-Foundry/pdf_reports
   summary: "pdf_reports developed by EGF to create nice-looking PDF reports from HTML or Pug templates."
   license: MIT
-  license_file: LICENCE.txt
+  license_file: LICENSE
 
 
 extra:
   recipe-maintainers:
     - breakthewall
-    - tduigou
     - ramez17khaled
